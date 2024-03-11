@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sobremesas</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <br><br>
+    <!-- Cabeçalho -->
+    <nav class="navbar position-fixed navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Sobremesas.com</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Receitas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="enviar-receita.html">Envie-nos sua receita</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.youtube.com/@receitasanamaria">Assista ao nosso canal</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+
+    <!-- Cards -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 col-10 m-auto">
+      <div class="col">
+        <div class="card">
+          <img src="assets/img/torta-maca.png" class="card-img-top" alt="Imagem torta de maça">
+          <div class="card-body">
+            <h5 class="card-title">Torta de Maçã</h5>
+            
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Ver Receita
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Torta de Maçã</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h3>Ingredientes:</h3>
+                    <ul>
+                      <li>&#8226; 3 maçãs descascadas e fatiadas</li>
+                      <li>&#8226; 1 xícara (chá) de açúcar</li>
+                      <li>&#8226; 1 colher (sopa) de canela em pó</li>
+                      <li>&#8226; 1 xícara (chá) de farinha de trigo</li>
+                      <li>&#8226; 1 xícara (chá) de açúcar mascavo</li>
+                      <li>&#8226; 1/2 xícara (chá) de manteiga derretida</li>
+                      <li>&#8226; 1/2 xícara (chá) de aveia em flocos</li>
+                    </ul>
+
+                    <h3>Modo de Preparo:</h3>
+                    <ol>
+                      <li>&#8226; Preaqueça o forno a 180°C.</li>
+                      <li>&#8226; Em um recipiente, misture as maçãs fatiadas com o açúcar e a canela. Reserve.</li>
+                      <li>&#8226; Em outro recipiente, misture a farinha de trigo, o açúcar mascavo, a manteiga derretida e a aveia em flocos até formar uma farofa.</li>
+                      <li>&#8226; Forre o fundo de uma forma com parte da farofa.</li>
+                      <li>&#8226; Distribua as maçãs sobre a farofa na forma.</li>
+                      <li>&#8226; Cubra as maçãs com o restante da farofa.</li>
+                      <li>&#8226; Leve ao forno preaquecido por aproximadamente 40 minutos, ou até dourar.</li>
+                      <li>&#8226; Retire do forno e deixe esfriar antes de servir.</li>
+                    </ol>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col">
+        <div class="card">
+          <img src="assets/img/pudim.png" class="card-img-top" alt="Imagem pudim">
+          <div class="card-body">
+            <h5 class="card-title">Pudim</h5>
+            
+           <!-- Button trigger modal -->
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+              Ver Receita
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Pudim</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h3>Ingredientes:</h3>
+                    <ul>
+                      <li>&#8226; 1 lata de leite condensado</li>
+                      <li>&#8226; A mesma medida (da lata) de leite integral</li>
+                      <li>&#8226; 3 ovos</li>
+                      <li>&#8226; 1 xícara (chá) de açúcar para caramelizar a forma</li>
+                    </ul>
+                    <h3>Modo de Preparo:</h3>
+                    <ol>
+                      <li>&#8226; Preaqueça o forno a 180°C.</li>
+                      <li>&#8226; Em uma panela, coloque o açúcar e leve ao fogo baixo, mexendo sempre até derreter e formar um caramelo. Despeje o caramelo na forma de pudim e reserve.</li>
+                      <li>&#8226; No liquidificador, bata o leite condensado, o leite integral e os ovos até obter uma mistura homogênea.</li>
+                      <li>&#8226; Despeje a mistura na forma caramelizada.</li>
+                      <li>&#8226; Cubra a forma com papel-alumínio e leve para assar em banho-maria no forno preaquecido por aproximadamente 1 hora.</li>
+                      <li>&#8226; Após esse tempo, retire o papel-alumínio e deixe assar por mais 30 minutos ou até que o pudim esteja firme.</li>
+                      <li>&#8226; Retire do forno, deixe esfriar e leve à geladeira por algumas horas antes de desenformar.</li>
+                      <li>&#8226; Sirva gelado.</li>
+                    </ol>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col">
+        <div class="card">
+          <img src="assets/img/torta-limao.png" class="card-img-top" alt="Imagem torta de limão">
+          <div class="card-body">
+            <h5 class="card-title">Torta de Limão</h5>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+              Ver Receita
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Torta de Limão</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal-3" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h3>Ingredientes:</h3>
+                    <ul>
+                      <li>&#8226; 1 pacote de biscoito maisena</li>
+                      <li>&#8226; 100g de manteiga derretida</li>
+                      <li>&#8226; 1 lata de leite condensado</li>
+                      <li>&#8226; 1 caixa de creme de leite</li>
+                      <li>&#8226; Suco de 3 limões</li>
+                      <li>&#8226; Raspas de limão para decorar</li>
+                    </ul>
+
+                    <h3>Modo de Preparo:</h3>
+                    <ol>
+                      <li>&#8226; Triture os biscoitos maisena até obter uma farofa fina.</li>
+                      <li>&#8226; Misture a farofa de biscoito com a manteiga derretida até formar uma massa homogênea.</li>
+                      <li>&#8226; Forre o fundo de uma forma com fundo removível com a massa de biscoito, pressionando bem.</li>
+                      <li>&#8226; Leve ao forno preaquecido a 180°C por 10 minutos. Retire e deixe esfriar.</li>
+                      <li>&#8226; Em um recipiente, misture o leite condensado, o creme de leite e o suco de limão até obter um creme homogêneo.</li>
+                      <li>&#8226; Despeje o creme sobre a massa de biscoito já fria.</li>
+                      <li>&#8226; Leve à geladeira por pelo menos 4 horas para firmar.</li>
+                      <li>&#8226; Antes de servir, decore com raspas de limão.</li>
+                    </ol>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+
+
+      <div class="col">
+        <div class="card">
+          <img src="assets/img/waffle.png" class="card-img-top" alt="Imagem torta de limão">
+          <div class="card-body">
+            <h5 class="card-title">Waffle</h5>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+              Ver Receita
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Waffle</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal-3" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h3>Ingredientes:</h3>
+                    <ul>
+                      <li>&#8226; 2 xícaras (chá) de farinha de trigo</li>
+                      <li>&#8226; 2 colheres (chá) de fermento em pó</li>
+                      <li>&#8226; 2 colheres (sopa) de açúcar</li>
+                      <li>&#8226; 1/2 colher (chá) de sal</li>
+                      <li>&#8226; 2 ovos</li>
+                      <li>&#8226; 1 3/4 xícaras (chá) de leite</li>
+                      <li>&#8226; 1/2 xícara (chá) de óleo</li>
+                      <li>&#8226; 1 colher (chá) de essência de baunilha</li>
+                    </ul>
+
+                    <h3>Modo de Preparo:</h3>
+                    <ol>
+                      <li>&#8226; Pré-aqueça a máquina de waffle conforme as instruções do fabricante.</li>
+                      <li>&#8226; Em uma tigela grande, misture a farinha de trigo, o fermento em pó, o açúcar e o sal.</li>
+                      <li>&#8226; Em outra tigela, bata os ovos levemente e adicione o leite, o óleo e a essência de baunilha. Mexa bem.</li>
+                      <li>&#8226; Despeje a mistura líquida na mistura de ingredientes secos e mexa até ficar homogêneo.</li>
+                      <li>&#8226; Despeje a massa na máquina de waffle e espalhe uniformemente.</li>
+                      <li>&#8226; Feche a máquina e cozinhe até que o waffle fique dourado e crocante.</li>
+                      <li>&#8226; Retire cuidadosamente o waffle da máquina e sirva quente.</li>
+                      <li>&#8226; Repita o processo com a massa restante.</li>
+                    </ol>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+
+
+
+      <div class="col">
+        <div class="card">
+          <img src="assets/img/brigadeiro.png" class="card-img-top" alt="Imagem torta de limão">
+          <div class="card-body">
+            <h5 class="card-title">Brigadeiro</h5>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+              Ver Receita
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Brigadeiro</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal-3" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h3>Ingredientes:</h3>
+                    <ul>
+                      <li>&#8226; 1 lata de leite condensado</li>
+                      <li>&#8226; 3 colheres (sopa) de chocolate em pó</li>
+                      <li>&#8226; 1 colher (sopa) de manteiga ou margarina</li>
+                      <li>&#8226; Chocolate granulado para decorar</li>
+                    </ul>
+
+                    <h3>Modo de Preparo:</h3>
+                    <ol>
+                      <li>&#8226; Em uma panela, misture o leite condensado, o chocolate em pó e a manteiga.</li>
+                      <li>&#8226; Leve ao fogo baixo, mexendo sempre, até desgrudar do fundo da panela.</li>
+                      <li>&#8226; Desligue o fogo e transfira a massa para um prato untado com manteiga.</li>
+                      <li>&#8226; Deixe esfriar por alguns minutos.</li>
+                      <li>&#8226; Com as mãos untadas com manteiga, faça bolinhas com a massa de brigadeiro.</li>
+                      <li>&#8226; Passe as bolinhas no chocolate granulado e coloque em forminhas de papel.</li>
+                      <li>&#8226; Sirva em temperatura ambiente.</li>
+</ol>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="assets/img/pave.png" class="card-img-top" alt="Imagem torta de limão">
+          <div class="card-body">
+            <h5 class="card-title">Pavê</h5>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+              Ver Receita
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Pavê</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal-3" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h3>Ingredientes:</h3>
+                    <ul>
+                      <li>&#8226; 1 pacote de biscoito maisena</li>
+                      <li>&#8226; 1 lata de leite condensado</li>
+                      <li>&#8226; 2 latas de leite (utilize a lata de leite condensado vazia para medir)</li>
+                      <li>&#8226; 2 gemas peneiradas</li>
+                      <li>&#8226; 2 colheres (sopa) de amido de milho</li>
+                      <li>&#8226; 1 colher (sopa) de essência de baunilha</li>
+                      <li>&#8226; 1 lata de creme de leite sem soro</li>
+                      <li>&#8226; 1 xícara (chá) de chocolate em pó</li>
+                      <li>&#8226; 1 xícara (chá) de leite para molhar os biscoitos</li>
+                    </ul>
+
+                    <h3>Modo de Preparo:</h3>
+                    <ol>
+                      <li>&#8226; Em uma panela, misture o leite condensado, as gemas peneiradas, o amido de milho e o leite. Leve ao fogo médio, mexendo sempre, até engrossar.</li>
+                      <li>&#8226; Desligue o fogo e adicione a essência de baunilha e o creme de leite sem soro. Misture bem e reserve.</li>
+                      <li>&#8226; Em um recipiente, misture o chocolate em pó com o leite para molhar os biscoitos.</li>
+                      <li>&#8226; Em uma travessa, monte camadas alternadas de biscoitos umedecidos no leite com chocolate e creme de baunilha, finalizando com o creme.</li>
+                      <li>&#8226; Leve à geladeira por pelo menos 4 horas antes de servir.</li>
+                    </ol>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Rodapé -->
+    <div class="card mt-5 w-100 card-footer" style="max-width: auto;">
+      <div class="row g-0">
+        <div class="col-md-12 m-auto">
+          <div class="card-body">
+            <h5 class="card-title">Sobremesas.com</h5>
+            <p class="card-text"><small class="text-body-secondary">Nícolas Deves</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
